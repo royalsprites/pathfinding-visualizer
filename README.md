@@ -46,3 +46,45 @@ Ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/royalsprites/pathfinding-visualizer.git
    cd pathfinding-visualizer
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Application
+
+1. **Start the development server:**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+2. **Access the application:**
+
+   Open your browser and navigate to `http://localhost:5173` to view the application.
+
+## Project Structure
+
+```plaintext
+pathfinding-visualizer/
+├── client/             # Frontend application
+├── server/             # Backend server
+├── shared/             # Shared utilities and types
+├── components.json     # Component configurations
+├── drizzle.config.ts   # Drizzle ORM configuration
+├── tailwind.config.ts  # Tailwind CSS configuration
+├── vite.config.ts      # Vite configuration
+├── package.json        # Project metadata and scripts
+├── tsconfig.json       # TypeScript configuration
+└── README.md           # Project documentation
+
+---
+
+Feel free to contribute to this project by submitting issues or pull requests.
